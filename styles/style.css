@@ -97,7 +97,8 @@ main {
 .mid-section {
     display: grid;
     grid-template-columns: 300px 1fr;
-    gap: 24px;
+    gap: 40px;
+    width: 1321px;
 
 }
 
@@ -115,18 +116,24 @@ main {
     justify-content: center;
 }
 
-.left-side .broswer-menu .items a {
+.items a {
+    display: flex;
+    flex-direction: column;
     padding: 16px 25px;
     background-color: #FFFFFF;
     color: #161616;
     text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 
 
 .mid-section .right-side {
     display: grid;
-    grid-template-columns: 350px 350px 350px;
+    grid-template-columns: 340px 340px 340px;
+    row-gap: 24px;
+
 }
 
 
@@ -134,4 +141,6 @@ main {
 .mid-section .right-side .match-info {
     height: 362px;
     width: 312px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
 }
