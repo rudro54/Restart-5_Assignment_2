@@ -113,6 +113,12 @@ footer {
 
 }
 
+.left-side #blog {
+    background-color: #DD0000;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
 .left-side {
     display: grid;
     align-items: center;
@@ -148,6 +154,20 @@ footer {
     border-radius: 10px;
 }
 
+.match-info .second-span {
+    margin-left: 20px;
+}
+
+.match-info .transfer-button {
+    width: 100px;
+    height: 32px;
+    border: 1px solid #161616;
+    color: #161616;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
 /* .mid-section ends */
 
 /* footer starts */
@@ -181,6 +201,8 @@ footer {
 }
 
 .footer-part .footer-points {
+    display: flex;
+    flex-direction: row;
     margin-top: 20px;
 }
 
