@@ -16,6 +16,7 @@ main {
 
 .container {
     margin-top: 50px;
+    background-color: #FFFFFF;
 
 
 
@@ -25,12 +26,12 @@ main {
 
 
 
-/* top-banner part */
+/* top-banner part starts */
 
 .top-banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
+    gap: 20px;
     align-items: center;
     height: 646px;
     width: 1321px;
@@ -59,23 +60,31 @@ main {
     font-weight: 400;
     line-height: 26px;
     color: #FFFFFF;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
 
 }
 
+.greatest-show a {
+    text-decoration: none;
 
+}
 
-.greatest-show .red-button {
+.greatest-show a .red-button {
     padding: 16px 25px;
     background-color: #DD0000;
     color: #FFFFFF;
     height: 50px;
     width: 150px;
     border-radius: 5px;
-
 }
 
 
 .player-photo img {
     width: 600px;
 }
+
+/* top banner part ends */
+
+
+
+/* mid section starts */
