@@ -273,6 +273,29 @@ footer {
         width: 430px;
     }
 
+    .mid-section {
+        display: flex;
+        grid-template-columns: 200px 1fr;
+        gap: 40px;
+
+
+    }
+
+    .mid-section .right-side {
+        display: grid;
+        grid-template-columns: 340px 340px;
+        row-gap: 24px;
+
+    }
+
+    .hidden-elements .red-button {
+        display: inline;
+
+    }
+
+
+
+
 
 
 }
