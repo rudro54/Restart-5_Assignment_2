@@ -103,6 +103,8 @@ footer {
     gap: 40px;
     width: 1321px;
 
+
+
 }
 
 .mid-section .left-side {
@@ -113,12 +115,25 @@ footer {
 
 }
 
+.right-side {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 .left-side {
     display: grid;
     align-items: center;
     justify-content: center;
+}
+
+.right-side {
+    display: grid;
+
+
+
 }
 
 .items a {
@@ -134,20 +149,34 @@ footer {
 
 
 
+
 .mid-section .right-side {
     display: grid;
     grid-template-columns: 340px 340px 340px;
     row-gap: 24px;
+    align-items: center;
 
 }
 
+.match-info {
 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
 
 .mid-section .right-side .match-info {
-    height: 362px;
+    height: 242px;
     width: 312px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+    align-items: center;
+
+}
+
+.match-info .fixure {
+    margin-top: 40px;
+    align-items: center;
 }
 
 
