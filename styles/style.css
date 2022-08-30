@@ -4,4 +4,32 @@
 /* common styles */
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+
+
+
+
+/* top-banner part */
+
+.top-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    height: 646px;
+    width: 1321px;
+    background-color: #161616;
+    border-radius: 30px;
 }
