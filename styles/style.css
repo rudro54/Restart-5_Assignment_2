@@ -156,7 +156,7 @@ footer {
 .footer-part {
     justify-items: center;
     align-items: center;
-
+    width: 100%;
     background-color: #161616;
 
 }
@@ -192,5 +192,14 @@ footer {
     justify-content: center;
 
 }
+
+.footer-part .social-media i {
+    color: #B9B9B9;
+    justify-content: center;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+
 
 /* footer ends */
